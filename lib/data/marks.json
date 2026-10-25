@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "maya",
+      "email": "maya@campus.edu",
+      "password_hash": "$2a$10$4tiWLiTD11ZGYmsF5DGWMeY./OVZz.t9JLl7xsDvjR.tA/Lp5bQTa",
+      "display_name": "Maya Chen",
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "username": "devon",
+      "email": "devon@campus.edu",
+      "password_hash": "$2a$10$0BOeRPeEx5qC4BpP3Y6pkeGJSj.PvV/VOXpIGdicyWoHLG6A/0fQW",
+      "display_name": "Devon Alvarez",
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "username": "priya",
+      "email": "priya@campus.edu",
+      "password_hash": "$2a$10$uK9N7c5TaxeYZ2iBRqk2AuwOmg1QLfCR4bSPWDVYX.ym6y9d7C4hS",
+      "display_name": "Priya Nair",
+      "role": "ta"
+    }
+  ],
+  "grades": [
+    {
+      "student_id": 1,
+      "item": "Lab 1",
+      "score": 18,
+      "out_of": 20
+    },
+    {
+      "student_id": 1,
+      "item": "Lab 2",
+      "score": 16,
+      "out_of": 20
+    },
+    {
+      "student_id": 1,
+      "item": "Midterm",
+      "score": 74,
+      "out_of": 100
+    },
+    {
+      "student_id": 2,
+      "item": "Lab 1",
+      "score": 20,
+      "out_of": 20
+    },
+    {
+      "student_id": 2,
+      "item": "Lab 2",
+      "score": 19,
+      "out_of": 20
+    },
+    {
+      "student_id": 2,
+      "item": "Midterm",
+      "score": 81,
+      "out_of": 100
+    }
+  ],
+  "section": {
+    "course": "CPEG 470",
+    "term": "Fall 2026",
+    "instructor_note": "Final curve is posted after the last lab. Release code MARKS-3381. Do not paste this into the student view."
+  }
+}
